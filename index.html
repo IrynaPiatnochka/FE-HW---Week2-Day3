@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 20px;
+            width: 80%;
+            max-width: 600px;
+            text-align: left;
+        }
+        .intro-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 20px;
+            width: 80%;
+            max-width: 600px;
+            text-align: left;
+        }
+        .card h2, .intro-card h2 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+        .card ul, .intro-card ul {
+            padding: 0;
+            list-style-type: none;
+        }
+        .card ul li, .intro-card ul li {
+            margin-bottom: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: auto; 
+        }
+        a {
+            color: #659dc5; 
+            text-decoration: none; 
+        }
+        h1, h2 {text-align: center;}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="intro-card"> 
+            <div class="intro">
+                <img src="image.jpeg" alt="Profile Picture" style="border-radius: 50%; width: 200px; display: block; margin: auto;">
+                <h1>Iryna Piatnochka</h1>
+                <h2 style="font-size: 1.1em;">Software Development Student</h2>
+                <p>I am a dedicated professional with a background in education and a passion for technology. Currently working as a Pilates instructor and fitness professional, I also have technical skills in Python and JavaScript, and am learning React. I hold a NVIDIA certificate in AI and a Cybersecurity certificate from Coursera. My goal is to become an excellent software developer and grow in this field.</p>
+            </div>
+        </section>
+
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>I graduated from Ternopil National Pedagogical University with a Bachelor's degree in Education, and West Ukrainian National University with a Master's degree in economics. I am currently working as a Pilates instructor and fitness professional, helping individuals achieve their health and wellness goals. My interests extend to acquiring technical skills, with a focus on Python, JavaScript, and React development. I am passionate about integrating technology with physical and mental health practices.</p>
+        </section>
+
+        <section id="education" class="card">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor's in Education - Ternopil National Pedagogical University</li>
+                <li>Master's in Economics - West Ukrainian National University</li>
+            </ul>
+        </section>
+
+        <section id="technical-skills" class="card">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Learning React</li>
+            </ul>
+        </section>
+
+        <section id="certifications" class="card">
+            <h2>Certifications</h2>
+            <ul>
+                <li>NVIDIA Efficient Large Language Model (LLM) Customization Certificate</li>
+                <li>Cybersecurity Analyst Certificate from Coursera</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact me</p>
+        <p>email: <a href="mailto:ivpiatnochka@gmail.com">ivpiatnochka@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/iryna-piatnochka-dev">iryna-piatnochka-dev</a></p>
+    </footer>
+</body>
+</html>
